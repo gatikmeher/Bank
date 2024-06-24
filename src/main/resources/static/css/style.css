@@ -1,0 +1,80 @@
+/* styles.css */
+
+/* Common styles for both pages */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+
+/* Styles specific to Sign-In Page */
+.signin-container {
+    text-align: center;
+}
+
+.signin-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.signin-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+/* Styles specific to Dashboard Page */
+.dashboard-container {
+    margin-top: 50px; /* Add space between Sign-In and Dashboard */
+}
+
+.dashboard-container main {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
